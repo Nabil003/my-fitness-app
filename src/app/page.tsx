@@ -1,3 +1,5 @@
+// Represents the actual page
+
 import Hero from "../components/Hero";
 import LibrarySection from "../components/LibrarySection";
 import { Exercise } from "./types";

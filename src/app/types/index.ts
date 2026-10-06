@@ -1,3 +1,5 @@
+// Represents types of exercises
+
 export interface Exercise {
   id: number;
   name: string;
