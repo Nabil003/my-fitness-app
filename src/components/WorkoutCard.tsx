@@ -7,6 +7,7 @@ type WorkoutCardProps = {
   workout: Exercise;
 };
 
+// represents the workout section
 export default function WorkoutCard({ workout }: WorkoutCardProps) {
   return (
     <Link href={`/workout/${workout.id}`} className="block h-full">
