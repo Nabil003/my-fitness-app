@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Banner from "../assets/banner.png";
+import Banner from "../assets/banner.png"; // represnts the banner image
 
 export default function Hero() {
   return (
