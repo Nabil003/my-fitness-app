@@ -4,7 +4,7 @@ import WorkoutCard from "./WorkoutCard";
 type LibrarySectionProps = {
   workouts: Exercise[];
 };
-
+// Library section starts here
 export default function LibrarySection({ workouts }: LibrarySectionProps) {
   return (
     <section id="library" className="bg-[#0d0f14] text-white px-6 py-12">
